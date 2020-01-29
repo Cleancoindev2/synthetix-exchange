@@ -71,3 +71,14 @@
     outline: 0;
   }
 }
+
+.link {
+  color: white;
+  font-family: 'RobotoMono-Regular';
+  font-size: 14px;
+  margin: -1px 0 0 20px;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}

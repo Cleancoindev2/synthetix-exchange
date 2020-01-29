@@ -122,6 +122,9 @@ class Header extends Component {
             {this.renderNetworkName()}
           </button>
           {this.renderExchangeButton()}
+          <a className={styles.link} href="https://beta.synthetix.exchange">
+            [Try Synthetix.Exchange v2 beta]
+          </a>
         </div>
         <div className={styles.headerRightArea}>
           {/* <button */}
