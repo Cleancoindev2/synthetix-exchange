@@ -181,7 +181,7 @@ const PairList = ({ synths, rates, setSynthPair, synthsSigns, setSynthSearch, se
 							</PairElement>
 							<PairElement>
 								<DataMedium>
-									{synthsSigns[quote.name]}
+									{synthsSigns[pair.quote.name]}
 									{formatCurrency(pair.rate, 6)}
 								</DataMedium>
 							</PairElement>
